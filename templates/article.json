@@ -47,7 +47,7 @@
     "16334872353b3736fe": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": ""
+        "custom_liquid": "% include 'relatedblogs' %"
       }
     }
   },
