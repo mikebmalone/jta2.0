@@ -43,9 +43,16 @@
       ],
       "settings": {
       }
+    },
+    "16334872353b3736fe": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16334872353b3736fe"
   ]
 }
