@@ -15,6 +15,11 @@
     "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCB23PI9G2w97QqW2BbXcIWw",
     "predictive_search_show_vendor": true,
     "favicon": "shopify:\/\/shop_images\/jta-site-icon.png",
+    "checkout_header_image": "shopify:\/\/shop_images\/japanese-tools-australia-free-shipping_1.jpg",
+    "checkout_logo_image": "shopify:\/\/shop_images\/japanese-tools-australia-logo.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_color": "#ffffff",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
