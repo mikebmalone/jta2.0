@@ -18,8 +18,11 @@
     "checkout_header_image": "shopify:\/\/shop_images\/japanese-tools-australia-free-shipping_1.jpg",
     "checkout_logo_image": "shopify:\/\/shop_images\/jta-logo_9b5929c0-0462-4fe1-9d34-714644ed1fc4.png",
     "checkout_logo_position": "center",
-    "checkout_logo_size": "large",
+    "checkout_logo_size": "medium",
     "checkout_body_background_color": "#ffffff",
+    "checkout_sidebar_background_image": "shopify:\/\/shop_images\/japanese-kanna.png",
+    "checkout_accent_color": "#1878b9",
+    "checkout_button_color": "#1878b9",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
