@@ -73,15 +73,8 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "JTA",
               "menu": "footer"
-            }
-          },
-          "footer-1": {
-            "type": "text",
-            "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
             }
           },
           "87ce9084-f855-43f6-b885-955ab2ac108a": {
@@ -90,12 +83,19 @@
               "heading": "Help & Support",
               "menu": "footer-menu"
             }
+          },
+          "footer-1": {
+            "type": "text",
+            "settings": {
+              "heading": "Heading",
+              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+            }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1",
-          "87ce9084-f855-43f6-b885-955ab2ac108a"
+          "87ce9084-f855-43f6-b885-955ab2ac108a",
+          "footer-1"
         ],
         "settings": {
           "color_scheme": "accent-1",
