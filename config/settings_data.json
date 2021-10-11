@@ -29,14 +29,24 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "background-1",
+              "text": "Call us on (02) 9527 3870 or email info@japanesetools.com.au",
+              "color_scheme": "inverse",
+              "link": "mailto:info@japanesetools.com.au"
+            }
+          },
+          "824ccfa2-885f-46da-a8ec-d02edc7c650a": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "text": "29 Production Ave Kogarah NSW 2217",
+              "color_scheme": "accent-1",
               "link": ""
             }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "824ccfa2-885f-46da-a8ec-d02edc7c650a"
         ],
         "settings": {
         }
