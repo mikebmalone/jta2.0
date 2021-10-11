@@ -222,34 +222,24 @@
         "swipe_on_mobile": false
       }
     },
-    "1633478670ed6fc030": {
-      "type": "page",
-      "settings": {
-        "page": ""
-      }
-    },
-    "16334787106161b9e3": {
-      "type": "apps",
-      "blocks": {
-        "d37a978e-96df-470e-be33-bfd1a0be64a2": {
-          "type": "shopify:\/\/apps\/bundler-product-bundles\/blocks\/custom-bundle\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
-          "settings": {
-            "shortcode": ""
-          }
-        }
-      },
-      "block_order": [
-        "d37a978e-96df-470e-be33-bfd1a0be64a2"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "1633478700e692e19b": {
       "type": "featured-blog",
       "settings": {
         "heading": "JTA's Plane Tips",
         "blog": "jtas-plane-tips",
+        "post_limit": 3,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "soft_background": false,
+        "show_view_all": true
+      }
+    },
+    "163392785340acd066": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "JTA's Chisel Tips",
+        "blog": "chisel-tips",
         "post_limit": 3,
         "show_image": true,
         "show_date": true,
@@ -267,8 +257,7 @@
     "video",
     "multi_column",
     "16334786559b67b0cb",
-    "1633478670ed6fc030",
-    "16334787106161b9e3",
-    "1633478700e692e19b"
+    "1633478700e692e19b",
+    "163392785340acd066"
   ]
 }
