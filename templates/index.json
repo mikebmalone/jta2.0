@@ -156,6 +156,38 @@
         "soft_background": false,
         "show_view_all": true
       }
+    },
+    "16339295346bea512a": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "16339295346bea512a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails"
+          }
+        },
+        "16339295346bea512a-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "16339295346bea512a-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16339295346bea512a-0",
+        "16339295346bea512a-1",
+        "16339295346bea512a-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": false
+      }
     }
   },
   "order": [
@@ -164,6 +196,7 @@
     "featured_products",
     "collage",
     "163392785340acd066",
-    "1633478700e692e19b"
+    "1633478700e692e19b",
+    "16339295346bea512a"
   ]
 }
