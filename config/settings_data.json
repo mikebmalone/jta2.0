@@ -7,8 +7,14 @@
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#FFFFFF",
     "colors_background_2": "#F3F3F3",
-    "type_header_font": "assistant_n4",
-    "type_body_font": "assistant_n4",
+    "type_header_font": "sans-serif",
+    "type_body_font": "sans-serif",
+    "social_facebook_link": "https:\/\/www.facebook.com\/japanesetools\/",
+    "social_pinterest_link": "https:\/\/www.pinterest.com.au\/JapaneseToolsAustralia\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/japanese_tools_australia\/",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCB23PI9G2w97QqW2BbXcIWw",
+    "predictive_search_show_vendor": true,
+    "favicon": "shopify:\/\/shop_images\/jta-site-icon.png",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
