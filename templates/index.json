@@ -150,7 +150,8 @@
         "1633935714431a2bf0-0": {
           "type": "video",
           "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "cover_image": "shopify:\/\/shop_images\/hqdefault.jpg",
+            "video_url": "https:\/\/vimeo.com\/592533019",
             "description": "Describe the video",
             "image_padding": false
           }
@@ -158,7 +159,7 @@
         "1633935714431a2bf0-1": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "tachibana-48mm-plane-aogami-blue-paper-steel",
             "second_image": false,
             "image_padding": false,
             "secondary_background": false
@@ -167,7 +168,7 @@
         "1633935714431a2bf0-2": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "planes",
             "image_padding": false,
             "color_scheme": "background-1"
           }
