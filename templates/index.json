@@ -222,11 +222,11 @@
         "swipe_on_mobile": false
       }
     },
-    "1633478700e692e19b": {
+    "163392785340acd066": {
       "type": "featured-blog",
       "settings": {
-        "heading": "JTA's Plane Tips",
-        "blog": "jtas-plane-tips",
+        "heading": "JTA's Chisel Tips",
+        "blog": "chisel-tips",
         "post_limit": 3,
         "show_image": true,
         "show_date": true,
@@ -235,12 +235,12 @@
         "show_view_all": true
       }
     },
-    "163392785340acd066": {
+    "1633478700e692e19b": {
       "type": "featured-blog",
       "settings": {
-        "heading": "JTA's Chisel Tips",
-        "blog": "chisel-tips",
-        "post_limit": 3,
+        "heading": "JTA's Plane Tips",
+        "blog": "jtas-plane-tips",
+        "post_limit": 4,
         "show_image": true,
         "show_date": true,
         "show_author": false,
@@ -257,7 +257,7 @@
     "video",
     "multi_column",
     "16334786559b67b0cb",
-    "1633478700e692e19b",
-    "163392785340acd066"
+    "163392785340acd066",
+    "1633478700e692e19b"
   ]
 }
