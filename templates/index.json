@@ -96,6 +96,7 @@
         "video": {
           "type": "video",
           "settings": {
+            "cover_image": "shopify:\/\/shop_images\/Japanese_Chisel_Setup_-_Part_1_of_3_-_Setting_the_Hoop.mp4-low_520x500_c7310db2-0705-45fb-94f0-0a54175bbaa7.gif",
             "video_url": "https:\/\/vimeo.com\/593058425",
             "description": "Many (though not all) Japanese chisels arrive to their new owner with a hoop pressed on the end of their handle, though not fully set. In this video we discuss the basics of setting the chisel hoop.",
             "image_padding": false
@@ -104,7 +105,7 @@
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "18mm-chisel-by-ouchi-san",
             "second_image": false,
             "image_padding": false,
             "secondary_background": false
@@ -113,7 +114,7 @@
         "collection": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "japanese-bench-chisels",
             "image_padding": false,
             "color_scheme": "background-1"
           }
