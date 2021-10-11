@@ -106,7 +106,7 @@
           "type": "product",
           "settings": {
             "product": "24mm-mokume-wakizashi-by-tasai",
-            "second_image": false,
+            "second_image": true,
             "image_padding": false,
             "secondary_background": false
           }
@@ -142,6 +142,46 @@
         "show_author": false,
         "soft_background": false,
         "show_view_all": true
+      }
+    },
+    "1633935714431a2bf0": {
+      "type": "collage",
+      "blocks": {
+        "1633935714431a2bf0-0": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "1633935714431a2bf0-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "1633935714431a2bf0-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "1633935714431a2bf0-0",
+        "1633935714431a2bf0-1",
+        "1633935714431a2bf0-2"
+      ],
+      "settings": {
+        "heading": "kanna 鉋",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
       }
     },
     "1633478700e692e19b": {
@@ -196,6 +236,7 @@
     "featured_products",
     "collage",
     "163392785340acd066",
+    "1633935714431a2bf0",
     "1633478700e692e19b",
     "16339295346bea512a"
   ]
