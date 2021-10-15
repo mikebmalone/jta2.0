@@ -44,6 +44,11 @@
             "show_dynamic_checkout": true
           }
         },
+        "cbb9d3cd-a1c2-42ee-9fa5-24dfbc68dff9": {
+          "type": "shopify:\/\/apps\/growave\/blocks\/block.product.faveButton\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -61,9 +66,16 @@
           "settings": {
           }
         },
-        "cbb9d3cd-a1c2-42ee-9fa5-24dfbc68dff9": {
-          "type": "shopify:\/\/apps\/growave\/blocks\/block.product.faveButton\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+        "7e9a6657-6b23-429c-ab67-84444a3f543c": {
+          "type": "shopify:\/\/apps\/bundler-product-bundles\/blocks\/bundler-target-element\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "disabled": true,
           "settings": {
+          }
+        },
+        "62e801c6-853e-4a41-b98d-6556b1fa7713": {
+          "type": "shopify:\/\/apps\/bundler-product-bundles\/blocks\/custom-bundle\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {
+            "shortcode": "2ve3"
           }
         }
       },
@@ -75,10 +87,12 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "cbb9d3cd-a1c2-42ee-9fa5-24dfbc68dff9",
         "description",
         "share",
         "2c49048a-496a-4808-9174-f206dfd17989",
-        "cbb9d3cd-a1c2-42ee-9fa5-24dfbc68dff9"
+        "7e9a6657-6b23-429c-ab67-84444a3f543c",
+        "62e801c6-853e-4a41-b98d-6556b1fa7713"
       ],
       "settings": {
         "enable_sticky_info": true,
