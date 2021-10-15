@@ -75,7 +75,7 @@
         "62e801c6-853e-4a41-b98d-6556b1fa7713": {
           "type": "shopify:\/\/apps\/bundler-product-bundles\/blocks\/custom-bundle\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
           "settings": {
-            "shortcode": "2ve3"
+            "shortcode": "{{ product.metafields.my_fields.bundle_id.value }}"
           }
         }
       },
