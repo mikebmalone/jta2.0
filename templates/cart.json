@@ -18,11 +18,18 @@
           "type": "buttons",
           "settings": {
           }
+        },
+        "c6721258-af91-4ad2-b15e-c74b1ba6f845": {
+          "type": "shopify:\/\/apps\/product-addons\/blocks\/spice_cart_addons\/0099190e-a0cb-49e7-8d26-026c9d26f337",
+          "settings": {
+            "cart": "camellia-oil"
+          }
         }
       },
       "block_order": [
         "subtotal",
-        "buttons"
+        "buttons",
+        "c6721258-af91-4ad2-b15e-c74b1ba6f845"
       ],
       "settings": {
         "show_cart_note": false
