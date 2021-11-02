@@ -104,7 +104,7 @@
       "settings": {
         "heading": "General Interest",
         "blog": "the-jta-blog",
-        "post_limit": 3,
+        "post_limit": 4,
         "show_image": true,
         "show_date": true,
         "show_author": false,
