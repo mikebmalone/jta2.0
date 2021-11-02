@@ -55,7 +55,13 @@
           <span class="visually-hidden">{{ product_card_product.metafields.reviews.rating_count }} {{ "accessibility.total_reviews" | t }}</span>
         </p>
       {%- endif -%}
-      yoink {% render 'price', product: product_card_product, price_class: '' %}
+      
+      {% capture the_snippet_review_avg %}{% render 'ssw-widget-avg-rate-profile' %}{% endcapture %}
+{% unless the_snippet_review_avg contains 'Liquid error' %}
+    {{ the_snippet_review_avg }}
+{% endunless %}
+      
+      {% render 'price', product: product_card_product, price_class: '' %}
     </div>
   </div>
 
