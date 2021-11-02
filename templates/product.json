@@ -44,11 +44,6 @@
             "show_dynamic_checkout": true
           }
         },
-        "cbb9d3cd-a1c2-42ee-9fa5-24dfbc68dff9": {
-          "type": "shopify:\/\/apps\/growave\/blocks\/block.product.faveButton\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
-          "settings": {
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -58,24 +53,6 @@
           "type": "share",
           "settings": {
             "share_label": "Share"
-          }
-        },
-        "2c49048a-496a-4808-9174-f206dfd17989": {
-          "type": "shopify:\/\/apps\/growave\/blocks\/block.product.reviewWidget\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "7e9a6657-6b23-429c-ab67-84444a3f543c": {
-          "type": "shopify:\/\/apps\/bundler-product-bundles\/blocks\/bundler-target-element\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "62e801c6-853e-4a41-b98d-6556b1fa7713": {
-          "type": "shopify:\/\/apps\/bundler-product-bundles\/blocks\/custom-bundle\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
-          "settings": {
-            "shortcode": "{{ product.metafields.my_fields.bundle_id.value }}"
           }
         }
       },
@@ -87,12 +64,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "cbb9d3cd-a1c2-42ee-9fa5-24dfbc68dff9",
         "description",
-        "share",
-        "2c49048a-496a-4808-9174-f206dfd17989",
-        "7e9a6657-6b23-429c-ab67-84444a3f543c",
-        "62e801c6-853e-4a41-b98d-6556b1fa7713"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -106,7 +79,7 @@
         "heading": "Customers also bought",
         "image_ratio": "square",
         "show_secondary_image": true,
-        "add_image_padding": true,
+        "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": true,
         "show_rating": true
@@ -143,22 +116,12 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "1634281733063fc47c": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false
-      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
     "1633934004de2c6bf3",
-    "16340862404bdf1958",
-    "1634281733063fc47c"
+    "16340862404bdf1958"
   ]
 }
