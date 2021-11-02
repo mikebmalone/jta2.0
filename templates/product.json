@@ -88,8 +88,8 @@
     "1633934004de2c6bf3": {
       "type": "featured-collection",
       "settings": {
-        "title": "Tool Maintenance",
-        "collection": "tool-maintenance",
+        "title": "On Sale",
+        "collection": "on-sale",
         "products_to_show": 12,
         "show_view_all": true,
         "swipe_on_mobile": true,
