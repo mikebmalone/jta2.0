@@ -6,15 +6,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Chiyozuru Korehide",
+            "heading": "Toyo Steel Toolboxes",
             "heading_size": "medium"
+          }
+        },
+        "781c1be6-b5d0-456a-90d4-4112aef9fe31": {
+          "type": "text",
+          "settings": {
+            "text": "Made in Osaka since 1969"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Mastercrafted",
-            "button_link_1": "shopify:\/\/collections\/master-crafted",
+            "button_label_1": "Shop Toolboxes",
+            "button_link_1": "shopify:\/\/collections\/toyo-steel-toolboxes",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -24,11 +30,12 @@
       },
       "block_order": [
         "heading",
+        "781c1be6-b5d0-456a-90d4-4112aef9fe31",
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Chiyozuru_1.jpg",
-        "image_2": "shopify:\/\/shop_images\/Kiridashi77_2048x2048_2x_c1dc1e9e-fc42-49ce-80a2-cd800b574143.jpg",
+        "image": "shopify:\/\/shop_images\/18_08.jpg",
+        "image_2": "shopify:\/\/shop_images\/toyosteel_factory_in_osaka_japan.jpg",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
         "show_text_box": true,
