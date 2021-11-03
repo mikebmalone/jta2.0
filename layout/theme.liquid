@@ -165,5 +165,21 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    
+    <script>
+      window.addEventListener('sswhelperload', () => {
+        if(typeof sswRun == 'function') {
+          sswRun(function(){
+            var reviewWidget = setInterval(function(){
+              if(ssw('.product.grid').length) {
+                ssw('.product.grid').after(ssw('#ssw-widget-recommends-html'));
+              }
+              clearInterval(reviewWidget);
+            }, 1000);
+          });
+        }
+      });
+    </script>
+    
   </body>
 </html>
