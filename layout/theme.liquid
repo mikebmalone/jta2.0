@@ -234,5 +234,56 @@
       });
     </script>
     
+    <script>
+      window.addEventListener('sswhelperload', () => {
+        if (typeof sswRun == "function") {
+          sswRun(function () {
+            var waitForContainer = setInterval(function () {
+              if (ssw('.product-grid .grid__item').length) {
+                function addWidgets() {
+                  window.ssw_widgets_products = [];
+                  ssw('.product-grid .grid__item').each(function (index, element) {
+                    if (!ssw(element).find(ssw('.ssw-faveicon-custom')).length) {
+                      var getUrl = ssw(element).find('.full-unstyled-link').attr('href');
+                      // var sswFaveIcon = `<div class="ssw-faveicon-custom" data-product-id="${getUrl}"></div>`;
+                      var sswReviewListing = `<div class="ssw-review-custom" data-product-id="${getUrl}"></div>`;
+                      window.ssw_widgets_products.push(getUrl);
+                      //ssw(element).find('.full-unstyled-link').before(ssw(sswFaveIcon));
+                      ssw(element).find(ssw('.card-information__text')).after(ssw(sswReviewListing));
+                    }
+                  });
+                  function ssw_widgets(handles) {
+                    handles.forEach((handle) => {
+                      ssw.get(handle, { view: 'ssw-metafield' }, function (res) {
+                        let tmp = ssw('<div>', { html: res });
+                        //tmp.find('.ssw-faveiticon').each(function (e, i) {
+                        //ssw(`.ssw-faveicon-custom[data-product-id="${handle}"]`).html(i);
+                        //});
+                        tmp.find('.ssw-widget-avg-rate-listing').each(function (e, i) {
+                          ssw(`.ssw-review-custom[data-product-id="${handle}"]`).html(i);
+                        });
+                      });
+                    });
+                    window.ssw_widgets_products = [];
+                  }
+                  ssw_widgets(window.ssw_widgets_products);
+                }
+                addWidgets()
+                const observer = new MutationObserver(function (mutations) {
+                  for (let mutation of mutations) {
+                    if (mutation.type === 'childList') {
+                      addWidgets()
+                    }
+                  }
+                })
+                observer.observe(ssw('.product-grid').get(0), { childList: true })
+                clearInterval(waitForContainer)
+              }
+            }, 1000);
+          });
+        }
+      });
+    </script>
+    
   </body>
 </html>
